@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    text-decoration: solid;
+    font-weight: bold;
+    }
+
+    
+.texto_epigrafe{
+    color: #003c6e;
+    font-size: 14px;
+}
+.texto_industrias {
+    font-size: 13px;
+    color: white;
+}
+
+.well {
+    background-color: white;
+    !important
+}
+
+.img-circle:hover {
+    filter: grayscale(100%);
+}
+
+.caption {
+    background-image: radial-gradient(circle at 43.84% 120.44%, #38afff 0, #1973c3 50%, #003c6e 100%);
+    color: white;
+}
+
+.port_sol {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.texto {
+    color: #737373;
+}
+
+.tag_equipo {
+    color: #737373;
+    font-size: 17px;
+    padding-left: 1%;
+    text-align: center;
+}
+
+.tag_equipo_2 {
+    text-align: center;
+}
+
+.texto_noticias {
+    color: #737373;
+    text-align: justify;
+}
+
+#noticia {
+    text-align: justify;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#noticia:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: justify;
+}
+
+.img_equipo:hover {
+    filter: grayscale(40%);
+}
+
+.img_calidad {
+    padding-right: 8px;
+}
+
+.texto_calidad {
+    color: #737373;
+    font-size: 15px;
+    line-height: 20px;
+    text-indent: 10px;
+    text-align: justify;
+}
+
+#solu:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    text-align: justify;
+}
+#industrias:hover{
+    box-shadow: 0 4px 8px 0 rgba(3, 140, 182, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+}
+
+#testimonios {
+    border-radius: 3px;
+    height: 500px;
+    background-image: linear-gradient(180deg, #a5a5a5 0, #007fc3 50%, #0c5788 100%);
+}
+
+#texto_testimonios {
+    background-color: rgb(126, 53, 53);
+    border-radius: 3px;
+    border: #737373;
+    height: 90px;
+    padding: 2%;
+    margin: auto;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #007fc3;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: rgb(0, 125, 228);
+}
+
+@media screen and (max-width: 980px) {
+    div#portada_equipo {
+        display: none;
+    }
+
+    @media screen and (max-width: 980px) {
+        img#sergio {
+            display: none;
+        }
+        @media screen and (max-width: 980px) {
+            img#sergio {
+                display: none;
+            }  
+            
+        @media screen and (max-width: 980px) {
+                img#noticia_revolution {
+                    display: none;
+                }
+        @media screen and (max-width: 980px) {
+                    img#noticia_3 {
+                        display: none;
+                    }
+        @media screen and (max-width: 980px) {
+                        img#noticia_1 {
+                            display: none;
+                        }
+        @media screen and (max-width: 980px) {
+                            img#noticia_pagina {
+                                display: none;
+                            }
+                            @media screen and (max-width: 980px) {
+                                img#taller {
+                                    display: none;
+                                }
+                                @media screen and (max-width: 980px) {
+                                    img#gustavo {
+                                        display: none;
+                                    }
+                                    @media screen and (max-width: 980px) {
+                                        img#wallet {
+                                            display: none;
+                                        }
+                                        @media screen and (max-width: 980px) {
+                                            img#diez {
+                                                display: none;
+                                            }
+                                            @media screen and (max-width: 980px) {
+                                                img#decision {
+                                                    display: none;
+                                                }
+                                                @media screen and (max-width: 980px) {
+                                                    img#radio {
+                                                        display: none;
+                                                    }
+                                                    @media screen and (max-width: 980px) {
+                                                        img#equipo {
+                                                            display: none;
+                                                        }
+                                                        @media screen and (max-width: 980px) {
+                                                            img#seminario {
+                                                                display: none;
+                                                            }
+                                                            @media screen and (max-width: 980px) {
+                                                                img#seminario2 {
+                                                                    display: none;
+                                                                }
+                                                                @media screen and (max-width: 980px) {
+                                                                    img#candado {
+                                                                        display: none;
+                                                                    }
+                                                                    @media screen and (max-width: 980px) {
+                                                                        img#sergio_grande {
+                                                                            display: none;
+                                                                        }
+                                                                        @media screen and (max-width: 980px) {
+                                                                            img#gustavo_grande {
+                                                                                display: none;
+                                                                            }
+                                            
+                                                                            @media screen and (max-width: 980px) {
+                                                                                img#biometria {
+                                                                                    display: none;
+                                                                                }
+                                                                                @media screen and (max-width: 980px) {
+                                                                                    img#argentina {
+                                                                                        display: none;
+                                                                                    }
+                                                
+                            
+                                
+                                                                                    @media screen and (max-width: 980px) {
+                                                                                        img#programadores {
+                                                                                            display: none;
+                                                                                        }
